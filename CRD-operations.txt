@@ -1,0 +1,36 @@
+#creating data 
+aa=create("Umraz",55)
+ab=create("Hussain",56,300)
+ac=create("Khan",57,30) #after 30sec data will be earased 
+
+
+#reading the data
+aa1=read("Umraz")
+aa1
+
+
+#after 30sec data will be earased 
+ac1=read("Khan")
+ac1
+
+
+ab1=read("Hussain")
+ab1
+
+
+#we can modify the data
+aa2=modify("Umraz",60)
+
+
+aa3=read("Umraz")
+aa3
+
+
+#delete operation 
+aa4=delete("Umraz")
+
+
+
+#if key exist it'll give error 
+aa5=read("Umraz")
+aa5
